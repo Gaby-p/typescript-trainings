@@ -1,2 +1,3 @@
-import { Deque } from "./Deque";
-const deque = new Deque<number>();
+import { DequeImpl } from "./DequeImpl";
+
+const deque = new DequeImpl<number>();
