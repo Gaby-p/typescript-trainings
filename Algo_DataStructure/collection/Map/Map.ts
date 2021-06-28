@@ -1,8 +1,9 @@
+import { CollectionInterface } from "../Collection";
 import { MapItem } from "./Model/MapItem";
 // source : https://dev.to/swarup260/data-structures-algorithms-in-javascript-dictionary-3b7f
 // source : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
-export class Map<K,V> {
+export class Map<K,V> implements CollectionInterface {
 
     private _nbrElt:number;
     private _elements: MapItem<K,V>[];

@@ -1,7 +1,7 @@
 import { LinkedList } from "./LinkedList";
 
 export class CircularList<E> implements LinkedList<E>{
-    
+
     clear(): void {
         throw new Error("Method not implemented.");
     }

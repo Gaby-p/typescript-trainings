@@ -1,4 +1,6 @@
-export interface LinkedList<E>{
+import {  CollectionInterface } from "../Collection";
+
+export interface LinkedList<E> extends CollectionInterface{
 
      /**
      * Removes all elements from the Set object.

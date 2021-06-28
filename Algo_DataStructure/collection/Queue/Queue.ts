@@ -1,6 +1,7 @@
+import { CollectionInterface } from "../Collection";
 import { LinkedNode } from "../Node/Node";
 
-export class Queue<T> {
+export class Queue<T> implements CollectionInterface {
 
     private _first : LinkedNode<T>;
     private _last : LinkedNode<T>;

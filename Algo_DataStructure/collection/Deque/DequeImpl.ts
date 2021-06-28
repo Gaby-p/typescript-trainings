@@ -12,66 +12,57 @@ export class DequeImpl<T> implements Deque<T> {
         //TODO: create Deque
         console.log('Deque consfructor');   
     }
-   
 
-     //FIXME: O(?)
-   
-     public clear():void{
-        throw new Error('This function has to be implemented');
+    //FIXME: O(?)
+    clear(): void {
+        throw new Error("Method not implemented.");
     }
 
     //FIXME: O(?)
-   
-    public isEmpty():boolean{
-        throw new Error('This function has to be implemented');
-    }
-
-     //FIXME: O(?)
- 
-    public size():number{
-        throw new Error('This function has to be implemented');   
-    }
-
-
-     //FIXME: O(?)
-    
-    public PeekFront(): T {
-        throw new Error('This function has to be implemented');  
+    isEmpty(): boolean {
+        throw new Error("Method not implemented.");
     }
 
     //FIXME: O(?)
-   
-     public AddFront(): T {
-        throw new Error('This function has to be implemented');  
-    }
-
-      //FIXME: O(?)
-    
-     public RemoveFront(): T {
-        throw new Error('This function has to be implemented');  
-    }
-
-
-    //FIXME: O(?)
-    
-     public PeekBack(): T {
-        throw new Error('This function has to be implemented');  
+    size(): number {
+        throw new Error("Method not implemented.");
     }
 
     //FIXME: O(?)
-   
-     public AddBack(): T {
-        throw new Error('This function has to be implemented');  
+    PeekFront(): T {
+        throw new Error("Method not implemented.");
     }
 
+    //FIXME: O(?)
+    AddFront(elt: T): void {
+        throw new Error("Method not implemented.");
+    }
 
-      //FIXME: O(?)
-    RemoveBack(): T {
+    //FIXME: O(?)
+    RemoveFront(): T {
+        throw new Error("Method not implemented.");
+    }
+
+    //FIXME: O(?)
+    PeekBack(): T {
         throw new Error("Method not implemented.");
     }
 
 
+    //FIXME: O(?)
+    AddBack(elt: T): void {
+        throw new Error("Method not implemented.");
+    }
+
+    //FIXME: O(?)
+    RemoveBack():T {
+        throw new Error("Method not implemented.");
+    }
 
 
-
+    //FIXME: O(?)
+    toString(): string {
+        throw new Error("Method not implemented.");
+    }
+   
 }

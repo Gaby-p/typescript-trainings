@@ -1,10 +1,12 @@
-export interface Deque<T>{
+import { CollectionInterface } from "../Collection";
+
+export interface Deque<T> extends CollectionInterface{
     
      /**
      * Removes all elements from the Set object.
      */
     clear():void;
-    
+
      /**
      * Check if the Deque is empty if empty.
      */
@@ -23,7 +25,7 @@ export interface Deque<T>{
      /**
      *  Insert an element at the front of the Deque.
      */
-    AddFront(): T;
+    AddFront(elt:T):void;
 
     /**
      *  Remove an element from the front and return the newly removed value
@@ -38,7 +40,7 @@ export interface Deque<T>{
      /**
      * Insert an element at the back of the Deque.
      */
-    AddBack(): T;
+    AddBack(elt:T):void;
 
     /**
      *  Remove an element from the back and return the newly removed value

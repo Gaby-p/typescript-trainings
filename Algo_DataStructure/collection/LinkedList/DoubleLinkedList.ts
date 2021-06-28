@@ -30,4 +30,5 @@ export class DoubleLinkedList<E> implements LinkedList<E>{
         throw new Error("Method not implemented.");
     }
 
+
 }
