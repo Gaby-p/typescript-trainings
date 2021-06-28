@@ -1,6 +1,6 @@
 export class LinkedNode<T> {
-     private _previousNode : LinkedNode<T> | null;
-     private _nextNode : LinkedNode<T> | null;
+     private _previousNode : LinkedNode<T> | undefined;
+     private _nextNode : LinkedNode<T> | undefined;
      private _value: T;
 
 
@@ -10,5 +10,23 @@ export class LinkedNode<T> {
         this._value = value;
 
      }
+
+     set previous(prevNode: LinkedNode<T> | undefined) {
+        this._previousNode = prevNode;
+     }
+
+     get previous():LinkedNode<T> | undefined {
+        return this._previousNode;
+     }
+
+
+     set next(next: LinkedNode<T> | undefined) {
+      this._nextNode = next;
+   }
+
+   get next():LinkedNode<T> | undefined {
+      return this._nextNode;
+   }
+
 
 }

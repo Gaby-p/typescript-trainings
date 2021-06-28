@@ -55,12 +55,12 @@ export class Map<K,V> {
 
      //FIXME: O(?)
     /**
-     * 
+     * Sets the value for the key in the Map object. Returns the Map object.
      * @param value 
      * @param key 
      */
-    public set( value:V, key: K){
-
+    public set( value:V, key: K): void {
+        throw new Error('This function has to be implemented');
     }
 
 
