@@ -8,7 +8,7 @@
  * print the fibonnacci sequence up to n number of terms
  * @param n
  */
-//TODO:in recursive
+//TODO: in recursive
 export function fibonacci(n:number):void{
     throw new Error('This function is not implemented yet');
 } 
