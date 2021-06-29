@@ -5,12 +5,21 @@ This project has for goal to introduce to some algorithmic problematics using a 
 
 ## How to start the project
 
-### First install the project
-the first thing which need to be done ( doing your git clone || fork) is  to an npm i
+The first step which need to be done ( doing your git clone || fork) is
+> npm i
 
-## next steps
-fill each class and excute the test classe to valide your answers
+Fill each class with the good answers and excute the test classe to valide your answers.
 
+> npm run test:ClassUnderTest
 
-[Algo training] Create training project
+*classUnderTest =
+
+* test:deque
+* test:list    
+* test:Map
+* test:queue
+* test:set
+* test:loadash
+* test:challenges
+
 

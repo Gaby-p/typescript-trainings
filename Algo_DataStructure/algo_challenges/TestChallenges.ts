@@ -4,6 +4,8 @@
  * 
  */
 
-import { Fibonacci } from "./Fibonacci";
+import { fibonacci } from "./Fibonacci";
 
-Fibonacci()
+const testNumber = 10 
+
+fibonacci(testNumber);

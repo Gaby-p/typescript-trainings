@@ -11,7 +11,9 @@
     "test:Map": "tsc && node ./build/collection/Map/TestMap.js",
     "test:queue": "tsc && node ./build/collection/Queue/TestQueue.js",
     "test:set": "tsc && node ./build/collection/Set/TestSet.js",
-    "test:loadash": "tsc && node ./build/collection/TestLoadash.js",
+    "test:loadash": "tsc && node ./build/loadash/TestLoadash.js",
+    "test:challenges": "tsc && node ./build/algo_challenges/TestChallenges.js"
+  
 
   },
   "keywords": [

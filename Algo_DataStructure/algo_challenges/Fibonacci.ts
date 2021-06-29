@@ -9,6 +9,6 @@
  * @param n
  */
 //TODO:in recursive
-export function fibonacci(n:number):String{
+export function fibonacci(n:number):void{
     throw new Error('This function is not implemented yet');
 } 
