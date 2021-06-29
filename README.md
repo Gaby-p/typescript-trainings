@@ -19,7 +19,7 @@ Fill each class with the good answers and excute the test classe to valide your 
 * test:Map
 * test:queue
 * test:set
-* test:loadash
+* test:lodash
 * test:challenges
 
 

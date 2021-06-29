@@ -5,16 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc" : "tsc",
+    "tsc": "tsc",
     "test:deque": "tsc && node ./build/collection/Deque/TestDeque.js",
     "test:list": "tsc && node ./build/collection/LinkedList/TestList.js",
     "test:Map": "tsc && node ./build/collection/Map/TestMap.js",
     "test:queue": "tsc && node ./build/collection/Queue/TestQueue.js",
     "test:set": "tsc && node ./build/collection/Set/TestSet.js",
-    "test:loadash": "tsc && node ./build/loadash/TestLoadash.js",
+    "test:loadash": "tsc && node ./build/lodash/TestLodash.js",
     "test:challenges": "tsc && node ./build/algo_challenges/TestChallenges.js"
-  
-
   },
   "keywords": [
     "training"
@@ -24,5 +22,8 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.170"
   }
 }
