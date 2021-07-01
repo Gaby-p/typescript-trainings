@@ -17,7 +17,7 @@ export class LinkedListImpl<T> implements LinkedList<T> {
     size(): number {
         throw new Error("Method not implemented.");
     }
-    push(): number {
+    push(elt:T):number {
         throw new Error("Method not implemented.");
     }
     insert(index: number, elt: T): void {

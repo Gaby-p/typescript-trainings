@@ -1,6 +1,9 @@
 import { Set } from "./Set";
 
-const set: Set<number>= undefined;//TODO: change the undifined
+const set: Set<number>=  new Set<number>();//TODO: change the undifined
+
+set._elements;
+
 
 const test ='[]';
 console.log("-------------------------------------------------------------------------------------------------------------------------------------------------");

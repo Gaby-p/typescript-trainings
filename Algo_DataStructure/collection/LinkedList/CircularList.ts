@@ -11,7 +11,7 @@ export class CircularList<E> implements LinkedList<E>{
     size(): number {
         throw new Error("Method not implemented.");
     }
-    push(): number {
+    push(elt:E):number {
         throw new Error("Method not implemented.");
     }
     insert(index: number, elt: E): void {

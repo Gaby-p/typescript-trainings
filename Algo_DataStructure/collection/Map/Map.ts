@@ -19,7 +19,8 @@ export class Map<K,V> implements CollectionInterface {
      * O(1)
      */
     public clear():void {
-        
+        this._nbrElt = 0;
+        this._elements = [];
     }
     
 

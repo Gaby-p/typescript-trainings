@@ -20,7 +20,7 @@ export interface LinkedList<E> extends CollectionInterface{
      /**
       * Insert an element at the end of the linked list.
       */
-     push():number;
+     push(elt:E):number;
 
      /**
       * Insert an element at the given index of the linked list;
