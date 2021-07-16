@@ -2,7 +2,7 @@ export class MapItem<K,V>{
     private _key : K | null;
     private _value : V;
 
-    constructor(value:V, key?: K){
+    constructor(value?:V, key?: K){
         this._key = key;
         this._value = value;
     }

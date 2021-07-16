@@ -1,18 +1,24 @@
 import { LinkedList } from "./LinkedList";
+import { LinkedListImpl } from "./LinkedListImpl";
 
-const list: LinkedList<number>= undefined;//TODO: change the undifined
+const list: LinkedList<string> = new LinkedListImpl(); //TODO: change the undifined
 
-const litsTest ='[]';
-console.log("-------------------------------------------------------------------------------------------------------------------------------------------------");
+const litsTest = "[]";
+console.log(
+  "-------------------------------------------------------------------------------------------------------------------------------------------------"
+);
 
-describe('Test your implementation from your list ', () => {
-    it('Test', () => {
-        expect().toBe();
-    });
-});
+console.log(
+  list.push("hello"),
+  list.push("cc"),
+  list.push("bonjour"),
+  list.size()
+);
+console.log("insertion", list.insert(1, "lol"))
 
-
-
-
-
-console.log("-------------------------------------------------------------------------------------------------------------------------------------------------");
+// console.log(list.remove("hello"), list.size());
+"salut".length;
+console.log("getElement ici", list.getElementAt(2));
+console.log(
+  "-------------------------------------------------------------------------------------------------------------------------------------------------"
+);

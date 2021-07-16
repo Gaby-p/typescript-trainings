@@ -6,6 +6,7 @@ export interface LinkedList<E> extends CollectionInterface{
      * Removes all elements from the Set object.
      */
       clear():void;
+      
     
       /**
       * Check if the Deque is empty if empty.

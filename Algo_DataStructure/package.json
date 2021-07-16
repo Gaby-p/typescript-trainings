@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "test:deque": "tsc && node ./build/collection/Deque/TestDeque.js",
     "test:list": "tsc && node ./build/collection/LinkedList/TestList.js",
-    "test:Map": "tsc && node ./build/collection/Map/TestMap.js",
+    "test:map": "tsc && node ./build/collection/Map/TestMap.js",
     "test:queue": "tsc && node ./build/collection/Queue/TestQueue.js",
     "test:set": "tsc && node ./build/collection/Set/TestSet.js",
     "test:loadash": "tsc && node ./build/lodash/TestLodash.js",
